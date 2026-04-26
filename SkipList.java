@@ -30,13 +30,7 @@ public class SkipList {
     private int size;
     private int height;
 
-    // Initializes the skip list with height = 3
-    public SkipList() 
-    {
-        head = new Node(3);
-        size = 0;
-        height = 1; // Start with height 1; grows as nodes are inserted
-    }
+    
 
     // if divisible by 4 then height = 3
     // if divisible by 2 then height = 2
@@ -64,6 +58,14 @@ public class SkipList {
         }
 
         return previous;
+    }
+    
+    // Initializes the skip list with height = 3
+    public SkipList() 
+    {
+        head = new Node(3);
+        size = 0;
+        height = 1; // Start with height 1; grows as nodes are inserted
     }
 
     // Returns true if the studentID is found otherwise false
@@ -139,6 +141,12 @@ public class SkipList {
         }
 
         size--;
+
+        // shrink height if levels are empty
+        while (height > 1 && head.next[height - 1] == null) 
+        {
+            height--;
+        }
     }
 
     // Returns the total number of student IDs
