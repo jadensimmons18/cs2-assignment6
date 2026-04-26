@@ -1,0 +1,26 @@
+Case 2: 
+
+Student IDs to Insert:
+[1200004, 1200008, 1200012, 1200016, 1200003, 1200005, 1200011, 1200020, 1200001, 1200002]
+
+Size after insertions: 10
+Height after insertions: 3
+
+Search Results Before Deletions:
+Student IDs to Search:
+[1200001, 1200012, 1200015, 1200020, 1300000]
+Found:
+[true, true, false, true, false]
+
+Student IDs to Delete:
+[1200004, 1200016, 5555555, 1200001]
+
+Size after deletions: 7
+Height after deletions: 3
+
+Search Results After Deletions:
+Student IDs to Search:
+[1200001, 1200012, 1200015, 1200020, 1300000]
+Found:
+[false, true, false, true, false]
+

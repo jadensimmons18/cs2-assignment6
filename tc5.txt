@@ -1,0 +1,26 @@
+Case 5: 
+
+Student IDs to Insert:
+[4001024, 4002048, 4003072, 4004096, 4005120, 4001001, 4001003, 4001005, 4001007, 4001009, 4002002, 4002006, 4002010, 4002014, 4002018]
+
+Size after insertions: 15
+Height after insertions: 3
+
+Search Results Before Deletions:
+Student IDs to Search:
+[4001024, 4001005, 4002018, 4003000, 4004096, 1234567]
+Found:
+[true, true, true, false, true, false]
+
+Student IDs to Delete:
+[4002048, 4001001, 4002010, 7000000, 4005120]
+
+Size after deletions: 11
+Height after deletions: 3
+
+Search Results After Deletions:
+Student IDs to Search:
+[4001024, 4001005, 4002018, 4003000, 4004096, 1234567]
+Found:
+[true, true, true, false, true, false]
+

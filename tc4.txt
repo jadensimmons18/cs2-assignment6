@@ -1,0 +1,26 @@
+Case 4: 
+
+Student IDs to Insert:
+[3141593, 2718281, 1618033, 1414213, 1732051, 2236069, 2449489, 2645751, 3162277, 3464101, 4000000]
+
+Size after insertions: 11
+Height after insertions: 3
+
+Search Results Before Deletions:
+Student IDs to Search:
+[4000000]
+Found:
+[true]
+
+Student IDs to Delete:
+[4000000]
+
+Size after deletions: 10
+Height after deletions: 1
+
+Search Results After Deletions:
+Student IDs to Search:
+[4000000]
+Found:
+[false]
+
